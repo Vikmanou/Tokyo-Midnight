@@ -1,0 +1,35 @@
+{
+  "name": "tokyo-midnight-theme",
+  "displayName": "Tokyo Midnight",
+  "description": "A dark theme with purple accents. Good for late night coding.",
+  "version": "0.1.0",
+  "publisher": "your-publisher",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#191a26",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "tokyo night",
+    "purple",
+    "night"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./tokyo-midnight-color-theme.json"
+      }
+    ]
+  }
+}
